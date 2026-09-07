@@ -68,16 +68,16 @@ RegisterNumber:212225040040
 */
 ```
 FULL ADDER PROGRAM:
-```
+
 module Fulladder(a,b,cin,sum,carry);
 input a,b,cin;
 output sum,carry;
 assign sum=((a^b)^cin);
 assign carry=((a&b)|(cin&(a^b)));
 endmodule
-```
+
 FULL SUTRACTOR PROGRAM:
-```
+
 module FullSub(a,b,bin,difference,borrow);
 input a,b,bin;
 output difference,borrow;
